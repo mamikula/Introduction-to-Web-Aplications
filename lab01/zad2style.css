@@ -1,0 +1,56 @@
+#container{
+    background-color: rgb(185, 174, 174);
+    display: block;
+    padding: 20px;
+}
+
+#main{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 25% 60% 15%;
+    min-height: 400px;
+}
+
+.Logo{
+    background-color: aliceblue;
+    width: 15%;
+    padding: 7px;
+}
+
+.menu{
+    background-color: aliceblue;
+    padding: 30px;
+}
+
+header{
+    text-align: center;
+    background-color: grey;
+    height: 10%;
+    padding: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: grey;
+    height: 5%;
+    padding: 20px;
+}
+
+div, header, footer{
+    border: solid 1px;
+}
+
+@Media (max-width: 1000px){
+    #main{
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@Media (max-width: 500px){
+    #main{
+        grid-template-columns: 100%;
+    }
+    .Logo{
+        display: none;
+    }
+}

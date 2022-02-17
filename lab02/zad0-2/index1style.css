@@ -1,0 +1,33 @@
+.box{
+    border: solid 1px blue;
+    height: 300px;
+    width: 600px;
+    display: flex;
+}
+
+.box div{
+    background-color: aquamarine;
+    border: solid 1px blue;
+    border-radius: 8pt;
+}
+
+div :nth-child(1){
+    height: 100%;
+    width: 20%;
+}
+
+div :nth-child(2){
+    height: 33%;
+    width: 20%;
+}
+
+div :nth-child(3){
+    height: 33%;
+    width: 20%;
+    align-self: center;
+}
+
+div :nth-child(4){
+    height: 33%;
+    width: 20%;
+}

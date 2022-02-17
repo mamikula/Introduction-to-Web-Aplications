@@ -1,0 +1,149 @@
+*
+{
+    font-family: sans-serif;
+}
+
+h1
+{
+    color: brown;
+    font-family: sans-serif;
+}
+
+body
+{
+    background-image: url(Images/tło.jpg);
+}
+
+
+a
+{
+    color:blueviolet;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a:visited
+{
+    color: gray;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: deepskyblue;
+}
+
+#container
+{
+    margin-top: 50px;
+    margin-bottom: 50;
+    border: 1px solid grey;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header
+{
+    text-align: center;
+    font-size: 250%;
+    color: brown;
+    background-color: antiquewhite;
+
+}
+
+#header > span
+{
+    padding: 25px;
+    display: block;
+}
+
+
+#navbar
+{
+    text-align: center;
+    font-size: 150%;
+    padding: 15px;
+    background-color: aliceblue;
+    border-top: 2px dashed grey;
+    border-bottom: 2px dashed grey;
+}
+
+#navbar a
+{
+    margin: 0 30px;
+}
+
+#main
+{
+    background-color: floralwhite;
+    font-size: 0;
+}
+
+#content
+{
+    display: inline-block;
+    height: auto;
+    width: 1000px;
+    text-align: justify;
+    background-color: bisque;
+    font-size: 15px;
+}
+
+#akapit1, #akapit2
+{
+    box-sizing: border-box;
+    width: 50%;
+    line-height: 200%;
+    padding: 50px;
+}
+
+#akapit1
+{
+    float: left;
+}
+
+#akapit2
+{
+    float: right;
+}
+
+#sidemenu
+{
+    line-height: 200%;
+    display: inline-block;
+    width: 150px;
+    float: right; 
+    width: 200px;
+    font-size: 15px;
+}
+
+#footer
+{
+    border-top: 1px solid grey;
+    padding: 40px;
+    font-size: 18px;
+    text-align: center;
+    color: grey;
+    font-style: italic;
+    background-color: aliceblue;
+}
+
+table tr td span
+{
+    font-weight: bold;
+    color: brown;
+}
+
+table > tbody > tr:nth-child(odd) > td:last-child
+{
+    background-color: skyblue;
+    background-color: #87ceeb;
+    background-color: rgb(135, 206, 235);
+    background-color: rgba(135, 206, 235, 0.25);
+}
+
+td.big
+{
+    font-size: 40px;
+}

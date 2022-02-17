@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Kurs HTML i CSS lekcja4 </title>
+    <link rel="stylesheet" type="text/css" href="style4.css" />
+    <meta name="description" content="Kurs Youtube" />
+    <meta name="keywords" content="kurs, html" />
+    <meta name="authhor" content="Sebastian Jankowiak" />
+</head>
+
+<body>
+    <!--  Tu jest początek tabeli  -->
+    <table>
+        <!-- znacznik tabeli -->
+        <caption>Nagłówek tabeli</caption>
+
+        <!-- znaczniki thead tboody i tfoot automatycznie ustawiają sie w odpowiedniej kolejności, niezależnie jak jest w kodzie! -->
+
+        <thead>
+            <!-- nagłowek tabeli, można pominąć -->
+            <tr>
+                <!-- tr = wiersz tabeli, składa się z określonej ilości komórek, każdy tr oznacza nowy wiersz -->
+
+                <!-- th = jakiś nagłowek w wierszu, chyba tak jakby nazwa kolumny, zamiast th można też td, kazdy th oznacza nową kolumnę -->
+                <th> Lewa strona </th>
+                <th>Prawa strona</th>
+
+            </tr>
+        </thead>
+
+        <tfoot>
+            <tr>
+                <td colspan="2" align="center">Wszelkie prawa zastrzeżone!</td>
+            </tr>
+        </tfoot>
+
+        <tbody>
+
+            <tr>
+                <td id="navbar" colspan="2">Menu górne</td>
+            </tr>
+            <tr>
+                <td id="content">
+                    <p id="akapit1"><q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium purus
+                            turpis. Integer ultricies luctus rhoncus. Nunc venenatis facilisis gravida. Suspendisse
+                            potenti. Fusce vel libero quis lacus dignissim ultricies. Aliquam id elementum ligula.
+                            Curabitur vel cursus mi. Proin aliquam enim facilisis iaculis consequat. Cras mollis
+                            molestie ex, sit amet bibendum felis feugiat sit amet. Vivamus vitae leo sollicitudin,
+                            commodo ligula et, pharetra nunc. Proin feugiat rutrum interdum. Phasellus eget rhoncus
+                            ante.</q></p>
+
+                    <p id="akapit2">Nulla rhoncus massa mattis fermentum faucibus. Ut non elit vitae lorem pharetra
+                        blandit. Phasellus in erat id velit hendrerit vestibulum id et mi. Nam id egestas neque.
+                        Maecenas a mauris vel est vehicula finibus ac id ipsum. Nulla suscipit aliquam felis, non
+                        dapibus libero ultrices id. Suspendisse eu mauris sed est molestie tristique sed sed neque.
+                        Donec nec quam mi. Pellentesque sapien eros, vehicula et ligula vitae, sodales consequat diam.
+                        Praesent lacus metus, congue sit amet ornare vel, suscipit sed lectus. Integer eu odio neque.
+                    </p>
+
+                </td>
+                <td id="sidemenu">
+                    <ul>
+                        <li>link</li>
+                        <li>link</li>
+                        <li>link</li>
+                        <li>link</li>
+                        <li>link</li>
+                        <li>link</li>
+                    </ul>
+
+                </td>
+            </tr>
+            <tr>
+                <td id="footer" class="big" colspan="2"><span>Stopka strony</span></td>
+
+            </tr>
+        </tbody>
+        <tfoot>
+            <!-- stopka tabeli -->
+        </tfoot>
+    </table>
+    <span class="big">Inny tekst</span>
+
+</body>
+
+</html>

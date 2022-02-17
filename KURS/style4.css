@@ -1,0 +1,106 @@
+*
+{
+    font-family: sans-serif;
+}
+
+h1
+{
+    color: brown;
+    font-family: sans-serif;
+}
+
+body
+{
+    background-image: url(Images/tło.jpg);
+}
+
+
+a
+{
+    color:blueviolet;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a:visited
+{
+    color: gray;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: deepskyblue;
+}
+
+table
+{
+    border: 1px solid black;
+    width: 100%;
+}
+
+td
+{
+    border: 1px solid black;
+
+}
+
+#navbar
+{
+    height: 100px;
+    text-align: center;
+}
+
+#content
+{
+    width: auto;
+    height: 500px;
+    vertical-align: top;
+    text-align: justify;
+    display: table-cell;
+}
+
+#akapit1, #akapit2
+{
+    width: 45%;
+}
+
+#akapit1
+{
+    float: left;
+}
+
+#akapit2
+{
+    float: right;
+}
+
+#sidemenu
+{
+    width: 150px;
+}
+
+#footer
+{
+    height: 150px;
+    text-align: center;
+}
+
+table tr td span
+{
+    font-weight: bold;
+    color: brown;
+}
+
+table > tbody > tr:nth-child(odd) > td:last-child
+{
+    background-color: skyblue;
+    background-color: #87ceeb;
+    background-color: rgb(135, 206, 235);
+    background-color: rgba(135, 206, 235, 0.25);
+}
+
+td.big
+{
+    font-size: 40px;
+}

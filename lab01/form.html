@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formstyle.css" />
+
+    <title>Document</title>
+</head>
+<body>
+    
+    
+        <form [formGroup]="modelForm" >
+
+            <div class = "content">
+            <div class = "line">
+                
+                <input class="form-control" name="nazwa" formControlName="nazwa" placeholder=" ">
+                <label class="col-form-label">Nazwa:</label><br>
+                <span *ngIf="nazwa && nazwa.invalid && nazwa.touched">To pole nie może być puste</span>
+                </div> 
+                
+            
+            <div class = "line">
+
+                <input class="form-control" name="kuchnia" formControlName="kuchnia">
+                <label class="col-form-label" placeholder=" ">Kuchnia:</label>
+                <span *ngIf="kuchnia && kuchnia.invalid && kuchnia.touched">To pole nie może być puste</span>
+            </div>
+            
+            <div class = "line">
+                <input class="form-control" name="kategoria" formControlName="kategoria" placeholder=" ">
+                <label class="col-form-label">Kategoria:</label>
+                <span *ngIf="kategoria && kategoria.invalid && kategoria.touched">To pole nie może być puste</span>
+                </div>
+            
+            <div class = "line">
+                <label class="col-form-label">Lista produktów:</label><br>
+                <input class="form-control" name="lista" formControlName="lista">
+                <span *ngIf="lista && lista.invalid && lista.touched">To pole nie może być puste</span>
+            </div>
+            
+                <div class = "line">
+                <label class="col-form-label">Ilość:</label><br>
+                <input class="form-control" name="ilosc" formControlName="ilosc" >
+                <span *ngIf="ilosc && ilosc.invalid && ilosc.touched">To pole nie może być puste i może zawierac tylko cyfry!</span>
+            </div>
+            
+                <div class = "line">
+                <label class="col-form-label">Cena:</label><br>
+                <input class="form-control" name="cena" formControlName="cena">
+                <span *ngIf="cena && cena.invalid && cena.touched">To pole nie może być puste i może zawierac tylko cyfry!</span>
+            </div>
+            
+            <div class = "line">
+                <label class="col-2 col-form-label">Opis:</label><br>
+                <input class="form-control" name="opis" formControlName="opis">
+                <span *ngIf="opis && opis.invalid && opis.touched">To pole nie może być puste</span>
+            </div>
+            
+            <div class = "line col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+                <label class="col-2 col-form-label">Link do obrazka:</label><br>
+                <!-- <input class="form-control" name="img" formControlName="img" placeholder="Wpisz linki po przecinku bez spacji"> -->
+                <textarea name="img" formControlName="img" id="message" class="form-control form textarea"  placeholder="Wpisz linki po przecinku bez spacji"></textarea>
+            
+                <span *ngIf="img && img.invalid && img.touched">To pole nie może być puste</span>
+            </div><br>
+            
+                <div class = "btn-class">
+                <button [disabled]="modelForm.invalid" class = "btn" type="submit" (click)="send()" >Send</button>
+                </div>
+            </div>
+            </form>
+
+    </body>
+    </html>
+                      
+                        

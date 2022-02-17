@@ -1,0 +1,8 @@
+body{
+    display:grid;
+    grid-template-columns: 75px 100px 100px 100px;
+}
+
+#counter{
+    margin-left: 10px;
+}

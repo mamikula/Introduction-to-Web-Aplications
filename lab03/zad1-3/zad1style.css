@@ -1,0 +1,12 @@
+button{
+    width: 10vw;
+    height: 5vh;
+    top: 50%;
+    left: 50%;
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: rgb(235, 81, 81);
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+}

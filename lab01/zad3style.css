@@ -1,0 +1,55 @@
+#container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+
+.title{
+    background-color: orange;
+    text-align: left;
+    padding: 15px;
+}
+
+.sign{
+
+    font-size: 20px;
+    color: white;
+}
+
+.submit{
+    background-color: orange;
+    padding: 15px;
+    text-align: right;
+}
+
+.string{
+    text-align: right;
+}
+
+table{
+    background-color: rgb(94, 86, 86);
+    width: 100%;
+}
+
+td{
+    padding: 5px;
+}
+
+#send{
+    background-color: green;
+    padding: 5px;
+    width: 100px;
+    color: wheat;
+    border: 0;
+}
+
+#cancel{
+    background-color: red;
+    padding: 5px;
+    width: 100px;
+    color: wheat;
+    border: 0;
+}

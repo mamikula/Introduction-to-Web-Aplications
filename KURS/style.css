@@ -1,0 +1,95 @@
+*
+{
+    font-family: sans-serif;
+}
+
+h1
+{
+    color: brown;
+    font-family: sans-serif;
+}
+
+a
+{
+    color:blueviolet;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a:visited
+{
+    color: gray;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: deepskyblue;
+}
+
+.obraz
+{
+    width: 400px;
+    border-radius: 25px;
+}
+
+#obramowanie
+{
+    /* background-color: green; */
+    display: inline-block;
+}
+
+#podpis
+{
+    font-size: 200%;
+    text-align: center;
+}
+
+body
+{
+    background-image: url(Images/tło.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+/* span
+{
+    display: inline;
+    margin-top: 15px;
+}
+
+.b
+{
+    font-weight: 700;
+}
+
+.i
+{
+    font-style: italic;
+}
+
+.u
+{
+    text-decoration: underline;
+}
+
+ul
+{
+    list-style-type: circle;
+}
+
+
+ol
+{
+    background-color: gray;
+    margin: 10px;
+    padding: 20px;
+
+    border: 5px solid yellowgreen;
+    border-radius: 25px;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: red; 
+}
+*/
